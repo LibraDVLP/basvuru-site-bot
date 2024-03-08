@@ -16,8 +16,8 @@ for (const file of commandFiles) {
     commands.push(command.data);
 }
 
-const clientId = '1215393012289634395';
-const guildId = '1213365811377344522';
+const clientId = 'Botunuzun İdsi';
+const guildId = 'Sunucunun İdsi';
 
 const rest = new REST({ version: '10' }).setToken(config.token);
 
