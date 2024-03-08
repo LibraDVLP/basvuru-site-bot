@@ -2,6 +2,9 @@
 
 • ⚠️ Botu kendinizin gibi göstermek yasaktır.
 
-• 🙋🏻‍♂️ Bir sorunuz olursa (benimle)[https://discord.com/invite/na9dSkf2] iletişime geçin.
+• 🙋🏻‍♂️ Bir sorunuz olursa benimle
+iletişime geçin.
+
+https://discord.com/invite/8hGzRkQ3
 
 • ⭐ Projeye yıldız atarsan bize destek olmuş olursun!
