@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+#about-me {
+    padding: 20px;
+}
+
+#about-me img {
+    float: left;
+    margin-right: 20px;
+}
+
+#contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact-form label {
+    display: block;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+#contact-form button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

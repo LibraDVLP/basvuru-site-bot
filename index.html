@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAŞVURU FORMU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Başvuru Formu</h1>
+    </header>
+    <section id="about-me">
+        <h2>Yetkili Alım İçin Form</h2>
+        <img src="profile.jpg" alt="Staff Başvuru" width="200">
+        <p>Sunucumuzda yetkili ola bilmek için aşağıdaki formları doldurub gönder butonuna tıklayınız.</p>
+    </section>
+    <section id="contact">
+        <h2>Başvuru Formu</h2>
+        <form id="contact-form">
+            <label for="name">Adınız :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="yaş">Yaşınız:</label>
+            <input type="text" id="old" name="old" required>
+
+            <label for="nick">Discord Kullanıcı İsminiz:</label>
+            <input type="text" id="nick" name="nick" required>
+           
+            <label for="id">Discord İd'niz:</label>
+            <input type="text" id="id" name="id" required>
+           
+ 
+            <label for="tc">Yazılım Hakkında Tecrübeleriniz:</label>
+            <input type="text" id="tc" name="tc" required>
+           
+            <label for="yp">Neden Seni Tercih edelim? / Bize ne katabilirsin?:</label>
+            <textarea id="yp" name="yp" required></textarea>
+            
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
