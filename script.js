@@ -15,14 +15,14 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         var id = document.getElementById('id').value;
         var nick = document.getElementById('nick').value;
 
-        var webhookUrl = "https://discord.com/api/webhooks/1215376286688485416/zpAT1kfiCmnnkN1Kohd0yqPTzZfyDv95z5RmVOKHqFGkLSEZaHmUz3aMlBXoR1trGABK";
+        var webhookUrl = "Başvuru Formunun Cevaplarının Gönderileceği Kanalın Webhook Urlsi";
         var request = new XMLHttpRequest();
         request.open("POST", webhookUrl);
         request.setRequestHeader('Content-type', 'application/json');
 
         var params = {
             username: "Web Sitenizden Mesaj",
-            avatar_url: "https://cdn.discordapp.com/avatars/843136836947410945/2edc04470385f961f0a68912d9ebc075.png?size=1024",
+            avatar_url: "Webhookda kullanılacak pp (isteğe bağlı,)",
             content: "Yeni bir iletişim formu mesajı aldınız!",
             embeds: [{
                 title: "İletişim Formu Detayları",
